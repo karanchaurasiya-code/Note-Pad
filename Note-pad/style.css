@@ -1,0 +1,60 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.container{
+  width: 100%;
+  height: 200vh;
+  background: black;
+  padding-top: 4%;
+  padding-left: 15% ;
+  color: whitesmoke;
+}
+.container h1{
+  font-size:50px;
+  -webkit-text-stroke: 2px whitesmoke;
+  color: transparent;
+}
+.container h1 img{
+  height: 35px;
+}
+.container button img{
+  height: 15px;
+}
+.container button{
+  border: none;
+  background: rgb(49, 84, 211);
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 5px;
+  color: aliceblue;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.container button:hover{
+  background-color: #3A1C71;
+}
+.input-box{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  color: black;
+}
+.notes-cantainer p img{
+  height: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
